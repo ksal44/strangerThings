@@ -1,0 +1,10 @@
+.posts{
+    border: solid black 2px;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 10%;
+    background-color: lightcyan;
+}
+.item {
+    padding: 10px;
+}

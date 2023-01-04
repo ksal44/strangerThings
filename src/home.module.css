@@ -1,0 +1,77 @@
+
+.homePage{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    border: black solid 2px;
+    border-radius: 20%;
+    padding: 20px;
+    background-color: lightcyan;
+}
+
+
+.list{
+    text-decoration: none;
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    
+}
+
+.linkContainer{
+
+        text-decoration: none;
+        list-style-type: none;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        border: solid;
+        border-radius: 20%;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-bottom: 20vw;
+
+}
+
+.prompt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10vh;
+    padding-top: 5vh;
+}
+
+.linkItem{
+    max-width: 20vw;
+    width: 20vw;
+    max-height: 30vh;
+
+    display: flex;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.linkItem:hover {
+    text-decoration:solid;
+    font-weight: bold;
+
+}

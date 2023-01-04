@@ -1,0 +1,32 @@
+.headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightcyan;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-between;
+    vertical-align: bottom;
+
+}
+
+
+
+.links{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.linkItem:hover {
+    text-decoration:solid;
+    font-weight: bold;
+}
